@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 40px;
+  color: grey;
+}
+.footer__center-box {
+  width: 330px;
+}
+.footer__right-box {
+  width: 330px;
+}
+.footer__left-box {
+  width: 330px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer__left-box p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.footer__center-box p {
+  margin-top: 0;
+}
+.footer__right-box p {
+  margin-top: 0;
+  text-align: end;
+}
